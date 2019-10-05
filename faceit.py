@@ -403,13 +403,21 @@ if __name__ == '__main__':
     # faceit.add_video('oliver', 'oliver_lorelai.mp4', 'https://www.youtube.com/watch?v=G1xP2f1_1Jg')
 
     faceit = FaceIt('boris_to_carlos', 'boris', 'carlos')
-    faceit.add_video('carlos', 'carlos_1.mp4', 'https://www.youtube.com/watch?v=weG8gQr0mIU')
-    faceit.add_video('carlos', 'carlos_2.mp4', 'https://www.youtube.com/watch?v=jKjA7ImdsFk')
-    faceit.add_video('carlos', 'carlos_3.mp4', 'https://www.youtube.com/watch?v=Y7WfBWiB2tc')
+    # faceit.add_video('carlos', 'carlos_1.mp4', 'https://www.youtube.com/watch?v=weG8gQr0mIU')
+    # faceit.add_video('carlos', 'carlos_2.mp4', 'https://www.youtube.com/watch?v=jKjA7ImdsFk')
+    # faceit.add_video('carlos', 'carlos_3.mp4', 'https://www.youtube.com/watch?v=Y7WfBWiB2tc')
+    #
+    # faceit.add_video('boris', 'boris_1.mp4', 'https://www.youtube.com/watch?v=35jdA6AMCPM')
+    # faceit.add_video('boris', 'boris_2.mp4', 'https://www.youtube.com/watch?v=sWLj30cj43M')
+    # faceit.add_video('boris', 'boris_3.mp4', 'https://www.youtube.com/watch?v=RkESFmODHF0')
 
-    faceit.add_video('boris', 'boris_1.mp4', 'https://www.youtube.com/watch?v=35jdA6AMCPM')
-    faceit.add_video('boris', 'boris_2.mp4', 'https://www.youtube.com/watch?v=sWLj30cj43M')
-    faceit.add_video('boris', 'boris_3.mp4', 'https://www.youtube.com/watch?v=RkESFmODHF0')
+    faceit.add_video('carlos', 'carlos_1.f137.mp4')
+    faceit.add_video('carlos', 'carlos_2.f136.mp4')
+    faceit.add_video('carlos', 'carlos_3.f136.mp4')
+
+    faceit.add_video('boris', 'boris_1.f137.mp4')
+    faceit.add_video('boris', 'boris_2.f137.mp4')
+    faceit.add_video('boris', 'boris_3.f298.mp4')
 
 
     FaceIt.add_model(faceit)
