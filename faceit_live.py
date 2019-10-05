@@ -392,19 +392,28 @@ class FaceSwapInterface:
 
 
 if __name__ == '__main__':
-    faceit = FaceIt('ale_to_oliver', 'ale', 'oliver')
+    # faceit = FaceIt('ale_to_oliver', 'ale', 'oliver')
+    #
+    # faceit.add_video('ale', 'aleweb.webm')
+    # faceit.add_video('ale', 'ale.mp4')
+    # faceit.add_video('ale', 'myvideo2.webm')
+    # faceit.add_video('ale', 'aleweb2.webm')
+    #
+    # faceit.add_video('oliver', 'oliver_trumpcard.mp4', 'https://www.youtube.com/watch?v=JlxQ3IUWT0I')
+    # faceit.add_video('oliver', 'oliver_taxreform.mp4', 'https://www.youtube.com/watch?v=g23w7WPSaU8')
+    # faceit.add_video('oliver', 'oliver_zazu.mp4', 'https://www.youtube.com/watch?v=Y0IUPwXSQqg')
+    # faceit.add_video('oliver', 'oliver_pastor.mp4', 'https://www.youtube.com/watch?v=mUndxpbufkg')
+    # faceit.add_video('oliver', 'oliver_cookie.mp4', 'https://www.youtube.com/watch?v=H916EVndP_A')
+    # faceit.add_video('oliver', 'oliver_lorelai.mp4', 'https://www.youtube.com/watch?v=G1xP2f1_1Jg')
 
-    faceit.add_video('ale', 'aleweb.webm')
-    faceit.add_video('ale', 'ale.mp4')
-    faceit.add_video('ale', 'myvideo2.webm')
-    faceit.add_video('ale', 'aleweb2.webm')
+    faceit = FaceIt('boris_to_carlos', 'boris', 'carlos')
+    faceit.add_video('carlos', 'carlos_1.mp4', 'https://www.youtube.com/watch?v=weG8gQr0mIU')
+    faceit.add_video('carlos', 'carlos_2.mp4', 'https://www.youtube.com/watch?v=jKjA7ImdsFk')
+    faceit.add_video('carlos', 'carlos_3.mp4', 'https://www.youtube.com/watch?v=Y7WfBWiB2tc')
 
-    faceit.add_video('oliver', 'oliver_trumpcard.mp4', 'https://www.youtube.com/watch?v=JlxQ3IUWT0I')
-    faceit.add_video('oliver', 'oliver_taxreform.mp4', 'https://www.youtube.com/watch?v=g23w7WPSaU8')
-    faceit.add_video('oliver', 'oliver_zazu.mp4', 'https://www.youtube.com/watch?v=Y0IUPwXSQqg')
-    faceit.add_video('oliver', 'oliver_pastor.mp4', 'https://www.youtube.com/watch?v=mUndxpbufkg')
-    faceit.add_video('oliver', 'oliver_cookie.mp4', 'https://www.youtube.com/watch?v=H916EVndP_A')
-    faceit.add_video('oliver', 'oliver_lorelai.mp4', 'https://www.youtube.com/watch?v=G1xP2f1_1Jg')
+    faceit.add_video('boris', 'boris_1.mp4', 'https://www.youtube.com/watch?v=35jdA6AMCPM')
+    faceit.add_video('boris', 'boris_2.mp4', 'https://www.youtube.com/watch?v=sWLj30cj43M')
+    faceit.add_video('boris', 'boris_3.mp4', 'https://www.youtube.com/watch?v=RkESFmODHF0')
 
 
     FaceIt.add_model(faceit)
